@@ -116,3 +116,71 @@ body {
     text-align: center;
 }
 /* intro section ended  */
+
+/* restaurant section started  */
+.lahore-restaurant-container {
+    margin-top: 60px;
+    padding: 0 80px;
+}
+.lahore-rest-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.lahore-rest-para {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffffb3;
+}
+/* restaurant section edned  */
+
+
+
+
+
+@media(max-width: 800px){
+    .menu-div{
+        display: block;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .nav-items :not(.order-btn){
+        display: none;
+    }
+
+    .arrow-icon {
+        color: red;
+    }
+
+    
+    .order-btn {
+        background-color: red;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 20px;
+        font-size: 8px;
+        font-family: inter;
+    }
+    .arrow-span {
+        padding: 3px 5px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+}
+
+@media(max-width: 640px) {
+    .intro-div {
+        padding: 0;
+    }
+}
