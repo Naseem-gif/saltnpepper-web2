@@ -27,10 +27,6 @@ body {
     overflow-x: hidden;
 }
 
-h3, h4 {
-    font-size: 32px;
-}
-
 /* navbar started */
 .nav-bar {
     display: flex;
@@ -93,215 +89,60 @@ h3, h4 {
 
 /* navber ended  */
 
-/* intro section started  */
-.butler-font {
-    font-family: butler;
-
-}
-
-.intro-div {
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 20px;
-    padding: 0 80px;
-}
-.intro-heading {
-    font-size: 40px;
-    text-align: center;
-
-}
-
-.intro-para {
-    color: #ffffffb3;
-    font-family: apercu;
-    font-size: 16px;
-    text-align: center;
-}
-/* intro section ended  */
-
-/* restaurant section started  */
-.lahore-restaurant-container {
-    margin-top: 60px;
-    padding: 0 80px;
-}
-.lahore-rest-heading {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 300px;
-    font-style: normal;
-    margin-bottom: 10px;
-}
-
-.lahore-rest-para {
-    text-align: center;
-    font-size: 16px;
-    color: #ffffffb3;
-}
-
-.futurak-font {
-    font-family: futurak;
-    font-size: 32px;
-}
-
-.butler-font {
-    font-family: butler;
-    font-size: 32px;
-}
-.lahore-restaurant {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-    gap: 20px;
-}
-.lahore-restaurant div {
-    width: 40%;
-}
-
-.lahore-restaurant img {
-    width: 600px;
-    border-radius: 10px;
-}
-
-.lahore-restaurant h3 {
-    font-size: 32px;
-}
-
-.restaurant-para {
-    font-size: 15px;
-    color: #ffffffb3;
-    margin-top: 30px;
-}
-/* restaurant section edned  */
-/* franchise section started  */
-.franchises-section {
+/* main section started  */
+.public-container {
     margin-top: 80px;
-}
-
-.franchise-heading {
-    text-align: center;
-}
-
-.franchises-abt {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.franchises-abt img {
-    border-radius: 10px;
-}
-
-.fran-abt-text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 40%;
-}
-.direction-btn {
-    background-color: transparent;
-    color: white;
-    padding: 15px 20px;
-    border: 1px solid white;
-    border-radius: 25px;
-    font-size: 14px;
-    width: 170px;
-}
-small{
-    color: red;
-    font-size: 16px;
-    font-family: apercu;
-    letter-spacing: 0.43rem;
-    font-weight: 200;
-    font-style: normal;
-}
-.franchises-container {
-    margin-top: 100px;
-}
-
-.franchises-container h1 {
-    text-align: center;
-}
-
-.franchise-locs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-.franchise {
+.image-container {
+    width: 600px;
+    height: 650px;
+    border: 1px solid #ffffff99;
+}
+
+.image-container img {
+    width: 620px;
+    height: 650px;
+}
+
+.availability {
+    margin-top: 80px;
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
 }
 
-.franchise p {
-    color: #ffffffb3;
-    font-size: 12px;
-    font-family: apercu;
-}
-
-.franchise small {
-    font-size: 12px;
-}
-
-.franchise-locs h2 {
-    font-family: apercu;
-    font-size: 24px;
-}
-
-.smaller {
-    font-size: 24px;
-}
-
-.angled {
-    rotate: 330deg;
-}
-
-/* franchise section ended  */
-
-/* village section  */
-.village-franchise {
-    margin: 80px 0;
-}
-
-.promo-heading {
-    text-align: center;
-}
-
-.promo-info {
-    margin-top: 40px;
+.availability div {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
-}
-
-.promo-text {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.promo-text p {
-    color: #ffffffb3;
+.availability a {
+    text-decoration: none;
+    color: #ffffff99;
+    
 }
 
-
-
-.green-icon {
-    color: #28a745;
+.availability p {
+    color: #ffffff99;
 }
+
+.butler-font {
+    font-family: butler;
+    font-size: 32px;
+}
+/* maind section ended  */
 
 /* footer starter  */
 footer {
@@ -386,6 +227,7 @@ footer img {
 
 
 
+
 @media(max-width: 800px){
     .menu-div{
         display: block;
@@ -425,45 +267,16 @@ footer img {
 }
 
 @media(max-width: 640px) {
-    .intro-div {
-        padding: 0;
+    .image-container {
+        width: 380px;
+        height: 450px;
     }
-
-    .lahore-restaurant img {
-        width: 400px;
+    
+    .image-container img {
+        width: 360px;
+        height: 430px;
     }
-
-    .lahore-restaurant  {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-    .restaurant-para {
-        text-align: center;
-    }
-
-    .franchises-section img  {
-        width: 400px;
-    }
-    .promo-image {
-        width: 300px;
-    }
-
-    .village-franchise {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .promo-text-div {
-        width: 80%;
-    }
-
+    
     .copyright {
         display: flex;
         flex-direction: column;
@@ -471,5 +284,5 @@ footer img {
         justify-content: center;
         padding: 0;
        }
-    
+
 }
