@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: futurak;
+    src: url(../assets/fonts/futurak.ttf);
+}
+
+@font-face{
+    font-family: butler;
+    src: url(../assets/fonts/Butler_Regular.otf);
+}
+@font-face{
+    font-family: apercu;
+    src: url(../assets/fonts/Apercu\ Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar started */
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+.menu-div {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 25px;
+}
+
+.logo-img {
+    width: 165px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.franchise-btn {
+    background-color: transparent;
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.order-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.arrow-icon {
+    color: red;
+}
+
+.arrow-span {
+    padding: 5px 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* navber ended  */
+
+/* intro section started  */
+.butler-font {
+    font-family: butler;
+
+}
+
+.intro-div {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 80px;
+}
+.intro-heading {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.intro-para {
+    color: #ffffffb3;
+    font-family: apercu;
+    font-size: 16px;
+    text-align: center;
+}
+/* intro section ended  */

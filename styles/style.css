@@ -1,0 +1,568 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: futurak;
+    src: url(../assets/fonts/futurak.ttf);
+}
+
+@font-face{
+    font-family: butler;
+    src: url(../assets/fonts/Butler_Regular.otf);
+}
+@font-face{
+    font-family: apercu;
+    src: url(../assets/fonts/Apercu\ Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+/* navbar started */
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+.menu-div {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 25px;
+}
+
+.logo-img {
+    width: 165px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.franchise-btn {
+    background-color: transparent;
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.order-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.arrow-icon {
+    color: red;
+}
+
+.arrow-span {
+    padding: 5px 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* navber ended  */
+
+.banner-image {
+    width: 100vw;
+}
+
+.futurak-font {
+    font-family: futurak;
+    font-size: 52px;
+}
+
+.restaurants {
+    display: flex;
+}
+
+
+.restaurant-heading {
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.rest-para {
+    text-align: center;
+    color: #ffffffb3;
+    margin: 10px 0 80px;
+}
+
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.brand-image {
+    width: 250px;
+    height: 140px;
+    border-radius: 3px;
+    background-color: white;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.order-now-btn {
+    background-color: transparent;
+    color: #ffffffb3;
+    border: 1px solid white;
+    width: 165px;
+    padding: 12px 0;
+    border-radius: 30px;
+    font-size: 16px;
+   
+}
+
+.franchise-heading {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.butler-font {
+    font-family: butler;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+small{
+    color: red;
+    font-size: 16px;
+    font-family: apercu;
+    letter-spacing: 0.43rem;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.locations-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+    
+}
+
+.location {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.location-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: apercu;
+}
+
+.fran-futurak-font {
+    font-family: futurak;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.direction-btn {
+    background-color: transparent;
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 14px;
+    width: 170px;
+}
+
+
+.locations-container p {
+    color: #ffffffb3;
+}
+
+.franchises-container {
+    margin-top: 100px;
+}
+
+.franchises-container h1 {
+    text-align: center;
+}
+
+.franchise-locs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.franchise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.franchise p {
+    color: #ffffffb3;
+    font-size: 12px;
+    font-family: apercu;
+}
+
+.franchise small {
+    font-size: 12px;
+}
+
+.franchise-locs h2 {
+    font-family: apercu;
+    font-size: 24px;
+}
+
+.smaller {
+    font-size: 24px;
+}
+
+.angled {
+    rotate: 330deg;
+}
+
+.village-franchise {
+    margin: 80px 0;
+}
+
+.promo-heading {
+    text-align: center;
+}
+
+.promo-info {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.promo-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.promo-text p {
+    color: #ffffffb3;
+}
+
+.promo-btn {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+
+}
+
+.green-icon {
+    color: #28a745;
+}
+
+.opening-soon-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.opening-soon {
+    width: 360px;
+    height: 230px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.express-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.white-text {
+    color: white;
+    font-family: inter;
+    font-size: 26px;
+    letter-spacing: normal;
+    font-weight: 500;
+}
+
+/* social feed started  */
+.social-feed-container {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.social-feed-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.social-feed-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+.social-feed-content img {
+    width: 250px;
+    height: 250px;
+}
+
+.social-feed-content video {
+    width: 250px;
+    height: 250px;
+}
+/* social feed ended  */
+
+/* footer starter  */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 16px;
+    font-family: apercu;
+    gap: 20px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #ffffff99;
+}
+
+footer p {
+    color: #ffffff99;
+}
+
+footer li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff99;
+}
+
+footer p, h3 {
+    font-size: 15px;
+}
+
+footer div {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer img {
+    width: 145px;
+}
+
+
+.social-icons {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.social-icons span {
+    background-color: red;
+    padding: 12px 15px;
+    border-radius: 50%;
+    gap: 10px;
+}
+
+.fa-brands {
+    font-size: 16px;
+}
+
+
+.copyright {
+    margin: 20px 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* footer ended  */
+
+
+
+
+
+@media (max-width: 1260px) {
+    .promo-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width: 800px) {
+    .franchise {
+        width: 336px;
+    }
+
+
+    .menu-div{
+        display: block;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .nav-items :not(.order-btn){
+        display: none;
+    }
+
+    .arrow-icon {
+        color: red;
+    }
+
+    
+    .order-btn {
+        background-color: red;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 20px;
+        font-size: 8px;
+        font-family: inter;
+    }
+    .arrow-span {
+        padding: 3px 5px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    .franchises img {
+        width: 350px;
+    }
+
+    .location  {
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       align-items: center;
+       text-align: center;
+    }
+    .futurak-font, .butler-font, .restaurant-heading, .fran-futurak-font {
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .promo-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .promo-image {
+        width: 600px;
+    }
+
+    .promo-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    
+}
+
+@media (max-width: 640px) {
+    .promo-image {
+        width: 300px;
+    }
+
+    .promo-text-div {
+        width: 80%;
+    }
+
+    .logo-img {
+        width: 100px;
+    }
+    .white-text {
+        font-size: 16px;
+    }
+
+    .footer p, h3 {
+        font-size: 16px;
+    }
+
+   .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+   }
+
+}
