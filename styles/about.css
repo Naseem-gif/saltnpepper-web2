@@ -153,8 +153,7 @@ h3, h4 {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    
+    justify-content: center;
     gap: 20px;
 }
 .lahore-restaurant div {
@@ -162,7 +161,7 @@ h3, h4 {
 }
 
 .lahore-restaurant img {
-    width: 600px;
+    width: 500px;
     border-radius: 10px;
 }
 
@@ -382,8 +381,6 @@ footer img {
     color: #ffffff;
 }
 /* footer ended  */
-
-
 
 
 @media(max-width: 800px){

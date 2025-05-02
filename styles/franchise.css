@@ -265,3 +265,12 @@ footer img {
         padding: 0;
        }
 }
+
+@media(max-width: 400px){
+    input, select {
+        display: block;
+        margin: 10px 0 0 ;
+        width: 350px;
+        height: 40px;
+    }
+}
